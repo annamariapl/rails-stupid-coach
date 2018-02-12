@@ -1,0 +1,48 @@
+<form action="/CONTROLLER_NAME" method="get">
+<input type="text">
+<input type="> (button)
+
+
+raise
+params
+
+food_type = params[food_type]
+
+
+RESTAURANT.select do |id, restauarnt|
+params[food_type] == food_type
+end 
+
+
+
+
+def show
+@restaurant = RESTAURANTS[params[:id].to_i] (in routes one has to define the id==> restuarants/id)
+end 
+
+
+
+CORE OF THE DAY
+PARAMS
+navigating in rails
+
+
+
+
+<% er %>
+<%= pe %>
+
+
+
+<p> 
+	<% until @question == "I go to work now" %>
+
+	<% if @question.include? "?" %>
+	<%= "silly question" %> 
+	<% else %>
+	<%= "I do not care" %> 
+	<% end %> 
+	<%= "great" %>
+	<% end %>
+
+</p>

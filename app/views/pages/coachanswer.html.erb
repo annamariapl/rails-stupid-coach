@@ -1,0 +1,37 @@
+<!-- <h1>Pages#coachanswer</h1>
+<p>Find me in app/views/pages/coachanswer.html.erb</p>
+
+-->
+<div class="container">
+
+<div class="question"><h2>
+	<%= @question %>
+</h2>
+<br>
+</div>
+<div class="question"</div>
+	<p>-You</p>
+</div>
+
+
+<div class="answer">
+	<h2> 
+		<% if @question == "I go to work now" %>
+		<%= "Great!" %> 
+		<% elsif @question.include? "?" %>
+		<%= "silly question" %> 
+		<% else %>
+		<%= "I do not care" %> 
+		<% end %> 
+
+	</h2>
+</div>
+<div class="answer">
+	<p> -Your coach </p>
+</div>
+
+<div class="button-container">
+<a href="form" class="btn-treehouse">Ask again somthing else!</a>
+</div>
+</div>
+

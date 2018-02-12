@@ -22,3 +22,17 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+<!-- 
+
+### NOTES ###
+errors: 
+301 => permament redirect
+404 => error from client side (acessing something what is not exisitng)
+422 => 
+500 => yóur fault? 
+
+
+
+ -->
